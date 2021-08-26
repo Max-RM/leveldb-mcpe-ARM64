@@ -44,7 +44,7 @@ jobs:
       with:
         upload_url: ${{ github.event.release.upload_url }}
         asset_path: ./build_leveldb/Release/leveldb.dll
-        asset_name: LevelDB-MCPE-32.dll
+        asset_name: leveldb_mcpe_win32.dll
         asset_content_type: dll
         
   deploy-win64:
@@ -86,5 +86,5 @@ jobs:
       with:
         upload_url: ${{ github.event.release.upload_url }}
         asset_path: ./build_leveldb/Release/leveldb.dll
-        asset_name: LevelDB-MCPE-64.dll
+        asset_name: leveldb_mcpe_win_amd64.dll
         asset_content_type: dll

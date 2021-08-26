@@ -48,7 +48,7 @@ jobs:
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: libleveldb.so
-          asset_name: libleveldb.so
+          asset_name: leveldb_mcpe_linux_x86_64.so
           asset_content_type: so
 
   macos:
@@ -67,5 +67,5 @@ jobs:
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: out-shared/libleveldb.dylib
-          asset_name: libleveldb.dylib
+          asset_name: leveldb_mcpe_macosx_10_9_x86_64.dylib
           asset_content_type: dylib
