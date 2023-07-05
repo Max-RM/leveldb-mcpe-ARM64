@@ -1,1 +1,1 @@
-ARM64 support
+ARM64 support for Linux.
